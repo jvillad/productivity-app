@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function page() {
-  return <div>signin page</div>;
+  return <div>signpage;</div>;
 }
