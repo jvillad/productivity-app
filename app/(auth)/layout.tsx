@@ -1,7 +1,7 @@
 import Panel from '@/components/Panel';
 import '@/styles/global.css';
 
-export default function SignInLayout({ children }) {
+export default function AuthLayout({ children }) {
   return (
     <html lang="en">
       <head />
