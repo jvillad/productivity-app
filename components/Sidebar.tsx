@@ -1,6 +1,5 @@
 import Card from './Card';
-import Image from 'next/image';
-import logo from '@/assets/images/logo.png';
+// import logo from '@/assets/images/logo.png';
 import SidebarLink from './SidebarLink';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -23,7 +22,7 @@ const Sidebar = () => {
   return (
     <Card className="h-full w-40 flex items-center justify-between flex-wrap">
       <div className="w-full flex justify-center items-center">
-        <Image src={logo} alt="Able logo" priority className="w-14" />
+        {/* <Image src={logo} alt="Able logo" priority className="w-14" /> */}
       </div>
       {links.map((link) => (
         <SidebarLink key={uuidv4} link={link} />
