@@ -28,7 +28,7 @@ export const validateJWT = async (jwt) => {
     jwt,
     new TextEncoder().encode(process.env.JWT_SECRET)
   );
-  //   TODO: make a global interface/types
+
   return payload.payload as any;
 };
 
